@@ -1,0 +1,10 @@
+%text-shadow {
+  text-shadow: 0 0 10px #000000, 0 0 30px #000000;
+}
+
+@mixin text-shortener {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,76 @@
+.navbar-inverse {
+  background-color: darken($dark-color, 4%);
+  border-color: transparent;
+
+  .navbar-nav {
+   > .active > a {
+      background-color: $base-dark;
+
+      &:hover,
+      &:focus {
+        background-color: $base-light;
+      }
+   }
+
+   > li {
+
+     > a {
+      border-radius: 4px;
+      transition: background-color 0.5s;
+
+      &:hover,
+      &:focus {
+        background-color: $base-color;
+      }
+   }
+  }
+
+  &.navbar-left {
+    > li {
+      margin: 5px 5px 5px 0;
+    }
+   }
+
+   .navbar-right {
+    > li {
+      margin: 5px 0 5px 5px;
+      }
+    }
+  }
+}
+
+.panel-info {
+  border: none;
+  margin-bottom: 30px;
+  background-color: lighten($gray-color, 8%);
+  overflow: hidden;
+
+  >.panel-heading {
+    color: #fff;
+    background-color: $accent-color;
+    border: none;
+
+     h3 {
+      letter-spacing: 0.1em;
+      font-size: 1.2rem;
+     }
+  }
+
+  > .panel-body {
+    border: 1px solid $gray-color;
+    border-radius: 0 0 4px 4px;
+  }
+}
+
+.carousel-inner > .item img {
+  width: 100%;
+}
+
+.input-group-lg > .form-control {
+  font-size: 0.875rem;
+}
+
+a.tumbnail:hover {
+  border-color: transparent;
+  transition: background-color 1s;
+}

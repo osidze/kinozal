@@ -1,0 +1,16 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+  font-family: $font-main;
+}
+a {
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    transition: color 0.5s;
+    color: $accent-color;
+  }
+}

@@ -1,0 +1,49 @@
+footer {
+  margin-top: 60px;
+  padding-top: 40px;
+  color: $gray-color;
+  background-color: $dark-color;
+  ul {
+    padding: 0;
+    list-style: none;
+    display: block;
+  }
+}
+.footer-top a {
+  color: #777777;
+  
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.footer-top {
+
+ 
+  grid-template-areas: "fst thd"
+  "snd fur";
+  font-size: 1rem;
+  line-height: 1.25em;
+  .footer-first {
+    grid-area: fst;
+  }
+  .footer-second {
+    grid-area: snd;
+  }
+  .footer-third {
+    grid-area: thd;
+  }
+  .footer-four {
+    grid-area: fur;
+  }
+}
+
+.footer-fifth {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.footer-fifth a {
+  color: white;
+}
